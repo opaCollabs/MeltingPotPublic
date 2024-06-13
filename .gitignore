@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Compiled binary addons
+/build/Release
+/build/Debug
+
+# macOS directory attributes
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+#pages for testing
+dummyPages/

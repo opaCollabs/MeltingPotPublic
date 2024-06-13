@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: coral;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 60px; 
+    height: 50px; 
+    margin-left: 12px; 
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #d80c0c; 
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0 20px;
+}
+
+.logout {
+    padding: 10px 20px;
+    background-color: #ffcc99; /* Softer orange */
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    overflow-y: auto; /* Make the container scrollable */
+    height: calc(100vh - 120px); /* Adjust height considering header */
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffe6e6; /* Light coral */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffd6cc; /* Light orange */
+}
+
+button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.view {
+    background-color: #ff704d; /* Softer red */
+    color: white;
+}
+
+button.approve {
+    background-color: #ffcc99; /* Softer orange */
+    color: black;
+}
+
+button.reject {
+    background-color: #ff6666; /* Softer red */
+    color: white;
+}
